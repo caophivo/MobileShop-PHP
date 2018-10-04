@@ -1,0 +1,106 @@
+body{
+	font-family: tahoma;
+	margin: 0;
+	padding: 0;
+	background: #F3F1F1;
+}
+
+#wrapper{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-color: #F3F1F1;
+	min-width: 1200px;
+}
+
+#header{
+	width: 100%;
+	min-width: 900px;
+	background-color: #F6DD0E;
+	height: 57px;
+}
+
+#timkiemnangcao{
+	width: 1200px;
+	min-width: 900px;
+	background-color: #EEEFC8;
+	height: 40px;
+	margin: auto;
+
+}
+
+/*bắt đầu phần quảng cáo*/
+#quangcao{
+	width: 1200px;
+	min-width: 900px;
+	height: 300px;
+	margin: 5px auto;
+}
+
+#quangcao iframe{
+	float: right;
+}
+
+/*kết thúc phần quảng cáo*/
+
+/*Bắt đầu phần content*/
+#content{
+	min-height: 500px;
+	min-width: 900px;
+	width: 1210px;
+	margin: auto;
+
+}
+
+.listOfProduct{
+	background-color: white;
+	color: black;
+	width: 393px;
+	min-height: 300px;
+	margin: 5px;
+	float: left;
+}
+
+/*kết thúc phần content*/
+
+/*bắt đầu phần loadmore*/
+.divloadmore{
+	width: 99.2%;
+	height: 60px;
+	background-color: white;
+	float: left;
+	margin: 5px 0px;
+	margin-left: 5px;
+}
+
+#loadmore{
+	width: 400px;
+	height: 40px;
+	background-color: white;
+	margin-top: 10px;
+	margin-left: 33.5%;
+	border-radius: 5px;
+	border-width: 1px;
+	border-color: #CCC6C6;
+	color: blue;
+	font-size: 17px;
+}
+
+#loadmore:hover{
+	background-color: #2C9BCF;
+	border-color: white;
+	color: white;
+}
+/*kết thúc phần loadmore*/
+
+
+/*bắt đầu phần footer*/
+#footer{
+	width: 100%;
+	min-width: 900px;
+	background-color: #C4AB46;
+	height: 100px;
+	margin-top: 10px;
+	clear: both;
+}
+/*kết thúc phần footer*/
